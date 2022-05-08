@@ -18,9 +18,9 @@ function generatePassword() {
       return generatePassword();
     }
           var numbers = confirm("Would you like your password to include numbers?")
-          var uppercase = confirm("Would you like your password to include uppercase chararcters?");
-          var lowercase = confirm("Would you like your password to include lowercase chararcters?");
-          var specialchars = confirm( "Would you like your password to include special characters?");
+          var ABCDEFGHIJKLMNOPQRSTUVWXYZ = confirm("Would you like your password to include uppercase chararcters?");
+          var abcdefghijklmnopqrstuvwxyz= confirm("Would you like your password to include lowercase chararcters?");
+          var specialcharacters = confirm( "Would you like your password to include special characters?");
   
     if(numbers) { met += numberString
     requisite += numberString.charAt(Math.floor(Math.random() * numberString.length))
